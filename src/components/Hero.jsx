@@ -21,8 +21,6 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               With code as my canvas, I build the visual language that shapes how users engage with the world.
               I translate ideas into captivating interfaces, breathing life into the digital world.
-              <br className='sm:block hidden' />
-              As a senior engineer of the web, I translate concepts into engaging and performant front-end experiences.
               {/* I develop 3D visuals, user <br className='sm:block hidden' />
             interfaces and web applications in React & Angular */}
             </p>
