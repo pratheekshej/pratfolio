@@ -1,7 +1,6 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
 import CanvasLoader from "../Loader";
 
 const MacCompouters = ({ isMobile }) => {
@@ -80,7 +79,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      className="!w-[30%] !h-[60%] hidden xl:block"
+      className="!w-[30%] !h-[60%] hidden xl:flex"
       frameloop='demand'
       shadows
       dpr={[1, 2]}
@@ -89,12 +88,10 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          enableZoom={false}
-        // maxPolarAngle={Math.PI / 2}
-        // minPolarAngle={Math.PI / 2}
+          enableZoom={false} // maxPolarAngle={Math.PI / 2} // minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
-        {/* <MacCompouters isMobile={isMobile} /> */}
+        {/* <Computers isMobile={isMobile} /> */}
+        <MacCompouters isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
