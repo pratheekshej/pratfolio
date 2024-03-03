@@ -20,15 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/next.svg";
+import angular from "./tech/angular.png";
+import awss3 from "./tech/awss3.svg";
+import sass from "./tech/sass.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import qburst from "./company/qburstlogo.svg";
+import thinkpalm from "./company/tp.png";
+import thinkingcode from "./company/tc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import omicon from "./omicon.png";
+import messagebox from "./messagebox.png";
+import smartship from "./smartship.png";
+import catos from "./molctaca.png";
+import riskcounts from "./riskcounts.png";
+import prompts from "./prompts.png";
 
 export {
   logo,
@@ -59,4 +73,17 @@ export {
   carrent,
   jobit,
   tripguide,
+  qburst,
+  thinkpalm,
+  thinkingcode,
+  omicon,
+  messagebox,
+  smartship,
+  catos,
+  riskcounts,
+  prompts,
+  nextjs,
+  angular,
+  awss3,
+  sass
 };
