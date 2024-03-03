@@ -45,13 +45,14 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-full leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        A driven, committed, and enthusiastic Front End Engineer/Developer delivering exceptional frontend
+        experiences for nearly 8 years, I possess a strong foundation in web development technologies and a
+        passion for creating intuitive and performant user interfaces, primarily utilizing my deep understanding
+        of React and its core principles. I am eager to engage in the development of high-scale and mission-critical platforms, adept at navigating
+        challenges associated with large-scale and highly available deployments in both on-premise and
+        public cloud environments, all while adhering to industry best practices.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
