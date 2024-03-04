@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -16,6 +16,18 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  const [seeMore, setSeeMore] = useState(false);
+
+  const viewDescription = (description = '') => {
+    if (!description) {
+      return '';
+    }
+    if (!seeMore) {
+      return `${description.slice(0, 150)}... `;
+    }
+    return description;
+  }
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -51,7 +63,12 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px]'>
+            {viewDescription(description)}
+            <span className="font-bold text-blue-600 cursor-pointer" onClick={() => setSeeMore((prev) => !prev)}>
+              {seeMore ? 'see less' : 'see more'}
+            </span>
+          </p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
