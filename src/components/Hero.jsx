@@ -7,13 +7,13 @@ const Hero = () => {
     <section className={`relative w-full h-screen mx-auto`}>
       <div className={`absolute inset-0 top-[80px] w-full mx-auto ${styles.contentPaddingX} flex flex-row items-start gap-5`}>
         {/* <div className={`absolute inset-0 top-[80px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}> */}
-        <div className="xl:w-[60%] w-full flex flex-row items-start justify-start gap-5 pt-5">
-          <div className='flex flex-col justify-center items-center mt-5'>
+        <div className="xl:w-[60%] w-full flex flex-row items-start justify-start gap-5">
+          <div className='flex flex-col justify-center items-center'>
             <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
             <div className='w-1 h-40 xs:h-80 violet-gradient' />
           </div>
 
-          <div className="xl:max-w-4xl max-w-full h-full pt-6">
+          <div className="xl:max-w-4xl max-w-full h-full">
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className='text-[#915EFF]'>Pratheeksh</span>
             </h1>
