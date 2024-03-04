@@ -33,8 +33,8 @@ import {
     riskcounts,
     prompts,
     nextjs,
-    angular,
-    awss3,
+    // angular,
+    // awss3,
     sass
 } from "../assets";
 
@@ -78,6 +78,18 @@ const services = [
 
 const technologies = [
     {
+        name: "React JS",
+        icon: reactjs,
+    },
+    /* {
+        name: "Next JS",
+        icon: nextjs,
+    }, */
+    {
+        name: "Redux",
+        icon: redux,
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -90,28 +102,16 @@ const technologies = [
         icon: sass,
     },
     {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
         name: "JavaScript",
         icon: javascript,
     },
     {
         name: "TypeScript",
         icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Next JS",
-        icon: nextjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
     },
     {
         name: "Node JS",
@@ -121,26 +121,22 @@ const technologies = [
         name: "MongoDB",
         icon: mongodb,
     },
-    {
-        name: "AWS S3",
-        icon: awss3,
-    },
-    {
+    /* {
         name: "Three JS",
         icon: threejs,
-    },
+    }, */
     {
-        name: "git",
+        name: "Git",
         icon: git,
     },
     {
-        name: "figma",
+        name: "Figma",
         icon: figma,
     },
-    {
-        name: "angular",
+    /* {
+        name: "Angular",
         icon: angular,
-    },
+    }, */
 ];
 
 const experiences = [

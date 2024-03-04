@@ -19,11 +19,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import nextjs from "./tech/next.svg";
-import angular from "./tech/angular.png";
-import awss3 from "./tech/awss3.svg";
-import sass from "./tech/sass.svg";
+import threejs from "./tech/threejs.png";
+import nextjs from "./tech/next.png";
+// import angular from "./tech/angular.png";
+// import awss3 from "./tech/awss3.svg";
+import sass from "./tech/sass.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -83,7 +83,7 @@ export {
   riskcounts,
   prompts,
   nextjs,
-  angular,
-  awss3,
+  // angular,
+  // awss3,
   sass
 };
