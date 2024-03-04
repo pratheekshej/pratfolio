@@ -27,21 +27,25 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!(form.email && form.name && form.message)) {
+      window.alert('Please enter all the fields!');
+      return;
+    }
     setLoading(true);
     emailjs.send(
       import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
       import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
-        to_name: "PJs Pratfolio",
         from_email: form.email,
-        to_email: "pratheekshej@gmail.com",
         message: form.message,
+        to_name: "Pratheeksh Joseph",
+        to_email: "pratheeksh.ej92@gmail.com",
       },
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setLoading(false);
-      alert("Thank you. I will get back to you as soon as possible.");
+      alert("Thank you for connecting. I will get back to you as soon as possible.");
       setForm({
         name: "",
         email: "",
@@ -50,7 +54,7 @@ const Contact = () => {
     }, (error) => {
       setLoading(false);
       console.error(error);
-      alert("Ahh, something went wrong. Please try again.");
+      alert("Something went wrong. Please try again.");
     }
     );
   };
