@@ -50,7 +50,7 @@ const About = () => {
         A driven, committed, and enthusiastic Front End Engineer/Developer delivering exceptional frontend
         experiences for nearly 8 years, I possess a strong foundation in web development technologies and a
         passion for creating intuitive and performant user interfaces, primarily utilizing my deep understanding
-        of React and its core principles. I am eager to engage in the development of high-scale and mission-critical platforms, adept at navigating
+        of React and Angular and its core principles. I am eager to engage in the development of high-scale and mission-critical platforms, adept at navigating
         challenges associated with large-scale and highly available deployments in both on-premise and
         public cloud environments, all while adhering to industry best practices.
       </motion.p>
