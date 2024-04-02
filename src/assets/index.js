@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 import nextjs from "./tech/next.png";
-// import angular from "./tech/angular.png";
+import angular from "./tech/angular.png";
 // import awss3 from "./tech/awss3.svg";
 import sass from "./tech/sass.png";
 
@@ -43,6 +43,7 @@ import smartship from "./smartship.png";
 import catos from "./molctaca.png";
 import riskcounts from "./riskcounts.png";
 import prompts from "./prompts.png";
+import aware from "./aware.jpg"
 
 export {
   logo,
@@ -83,7 +84,8 @@ export {
   riskcounts,
   prompts,
   nextjs,
-  // angular,
+  angular,
+  aware,
   // awss3,
   sass
 };

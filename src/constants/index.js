@@ -33,9 +33,10 @@ import {
     riskcounts,
     prompts,
     nextjs,
-    // angular,
+    angular,
     // awss3,
-    sass
+    sass,
+    aware
 } from "../assets";
 
 export const navLinks = [
@@ -67,11 +68,15 @@ const services = [
         icon: reactjs,
     },
     {
+        title: "Angular Developer",
+        icon: angular,
+    },
+    {
         title: "JavaScript/TypeScript Developer",
         icon: typescript,
     },
     {
-        title: "HTML/CSS Coder",
+        title: "HTML/CSS/SCSS Coder",
         icon: css,
     }
 ];
@@ -80,6 +85,10 @@ const technologies = [
     {
         name: "React JS",
         icon: reactjs,
+    },
+    {
+        name: "Angular",
+        icon: angular,
     },
     /* {
         name: "Next JS",
@@ -117,10 +126,10 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
+    /* {
         name: "MongoDB",
         icon: mongodb,
-    },
+    }, */
     /* {
         name: "Three JS",
         icon: threejs,
@@ -149,7 +158,7 @@ const experiences = [
         points: [
             "Spearheaded platform-oriented frontend development, prioritizing user experience, performance optimization, and strict adherence to design guidelines and principles.",
             "Orchestrated seamless collaboration with cross-functional teams, including UX/UI designers (utilizing tools such as Invision and Figma) and backend developers, ensuring integrated and cohesive user experiences for high-quality web solutions.",
-            "Implemented responsive web design principles using React.js, delivering feature-rich and performant applications, and played a key role in building front-end apps via Node.js. Led code reviews, established coding standards, and maintained a streamlined and efficient codebase within Agile development methodologies.",
+            "Implemented responsive web design principles using React.js and Angular, delivering feature-rich and performant applications, and played a key role in building front-end apps via Node.js. Led code reviews, established coding standards, and maintained a streamlined and efficient codebase within Agile development methodologies.",
         ],
     },
     {
@@ -244,6 +253,40 @@ const projects = [
             },
         ],
         image: omicon,
+        // source_code_link: "https://github.com/",
+    },
+    {
+        name: "AWARE Safety Solutions",
+        description: `Actively involved in the development of AWARE
+        which is a cloud based web app developed in Angular 12 for
+        web. The app runs with access to real-time data, two-way
+        communication, and response capabilities. Road-side safety
+        for organizations will be fully equipped to assist employees
+        based on detailed and accurate information about their
+        location, activity, and condition via sentry devices.`,
+        tags: [
+            {
+                name: "angular",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "socket.io",
+                color: "green-text-gradient",
+            },
+            {
+                name: "sass",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "django",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "awss3",
+                color: "green-text-gradient",
+            },
+        ],
+        image: aware,
         // source_code_link: "https://github.com/",
     },
     {
