@@ -1,7 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -11,18 +8,10 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    // mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    // threejs,
     qburst,
     thinkpalm,
     thinkingcode,
@@ -36,7 +25,9 @@ import {
     angular,
     // awss3,
     sass,
-    aware
+    aware,
+    okl,
+    cscgh
 } from "../assets";
 
 export const navLinks = [
@@ -90,10 +81,10 @@ const technologies = [
         name: "Angular",
         icon: angular,
     },
-    /* {
+    {
         name: "Next JS",
         icon: nextjs,
-    }, */
+    },
     {
         name: "Redux",
         icon: redux,
@@ -142,13 +133,26 @@ const technologies = [
         name: "Figma",
         icon: figma,
     },
-    /* {
+    {
         name: "Angular",
         icon: angular,
-    }, */
+    },
 ];
 
 const experiences = [
+    {
+        title: "Senior Frontend Developer",
+        company_name: "CSC Generation",
+        icon: cscgh,
+        iconBg: "#FFF",
+        date: "Sep 23, 2024 - Jan 28, 2025",
+        points: [
+            "Collaborated with product teams to architect and implement retail cloud services, specializing in TypeScript/JavaScript, React/Next.js, and Node.js",
+            "Developed quality, functional code, built responsive UI components, and integrated backend services supporting Python for AWS.",
+            "Followed best practices for maintainable and elegant code while leveraging tools like Next.js, RTL/Jest, SASS, TailwindCSS, and Figma.",
+            "Key project I contributed to was OneKingsLane.com, where I focused on enhancing frontend functionality and user experience.",
+        ],
+    },
     {
         title: "Lead Engineer (Front End)",
         company_name: "QBurst",
@@ -215,6 +219,42 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "ONEKINGSLANE",
+        description: "Played a key role in the development of OneKingsLane.com, a premier online luxury home décor and furniture retailer, utilizing Next.js (TypeScript), React, and TailwindCSS. I contributed to feature releases aimed at driving revenue growth, ensuring seamless user interactions and optimized performance. Focused on crafting a high-quality user experience, I built responsive, high-performance UI components, integrated RESTful APIs, and maintained design consistency using Figma. Additionally, I implemented performance optimizations following best practices and coding standards while ensuring code reliability and maintainability through RTL/Jest testing.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "sass",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "python",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "awss3",
+                color: "green-text-gradient",
+            },
+            {
+                name: "awslambda",
+                color: "green-text-gradient",
+            },
+            {
+                name: "elasticsearch",
+                color: "green-text-gradient",
+            },
+        ],
+        image: okl,
+        // source_code_link: "https://github.com/",
+    },
     {
         name: "OMICON",
         description: "Led the development in React.js for OMICON, a groundbreaking Data-Science initiative. As the Lead Engineer, I spearheaded the creation of a collaborative platform for the in-depth study of biological systems utilizing omics data. This application facilitates seamless search, retrieval, sharing, and repackaging of digital assets related to biological systems. It enables researchers to collaborate efficiently with tailored read or write access to specific folders and files within a project.",
