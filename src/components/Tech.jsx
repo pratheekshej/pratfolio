@@ -7,8 +7,8 @@ import { technologies } from "../constants";
 const Tech = () => {
   return (
     <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name} title={technology.name}>
+      {technologies.map((technology, _i) => (
+        <div className='w-28 h-28' key={technology.name + _i} title={technology.name}>
           <BallCanvas icon={technology.icon} />
         </div>
       ))}
