@@ -32,6 +32,7 @@ import tesla from "./company/tesla.png";
 import qburst from "./company/qburstlogo.svg";
 import thinkpalm from "./company/tp.png";
 import thinkingcode from "./company/tc.png";
+import cscgh from "./company/cscghlogo.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -44,6 +45,8 @@ import catos from "./molctaca.png";
 import riskcounts from "./riskcounts.png";
 import prompts from "./prompts.png";
 import aware from "./aware.jpg"
+
+import okl from "./OKL_TT.png"
 
 export {
   logo,
@@ -87,5 +90,7 @@ export {
   angular,
   aware,
   // awss3,
-  sass
+  sass,
+  okl,
+  cscgh
 };
